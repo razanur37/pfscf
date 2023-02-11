@@ -22,7 +22,7 @@ This is the section about general questions. In case you are having problems wit
 ??? question "I have this absolutely great idea for a missing feature! Can you implement this?"
 
 	Yay! Feature ideas are always welcome!
-	Please open an [issue](https://github.com/Blesmol/pfscf/issues) in this repository and describe your idea!
+	Please open an [issue](https://github.com/razanur37/pfscf/issues) in this repository and describe your idea!
 	The more details, the better!
 	But please be also aware that I am doing this in my free time, and some things might be really, really complicated to realize.
 	So please don't be mad if things might take a little bit longer or sometimes even won't be done.

@@ -3,9 +3,9 @@ package content
 import (
 	"testing"
 
-	"github.com/Blesmol/pfscf/pfscf/args"
-	"github.com/Blesmol/pfscf/pfscf/preset"
-	test "github.com/Blesmol/pfscf/pfscf/testutils"
+	"github.com/razanur37/pfscf/pfscf/args"
+	"github.com/razanur37/pfscf/pfscf/preset"
+	test "github.com/razanur37/pfscf/pfscf/testutils"
 	"gopkg.in/yaml.v2"
 )
 

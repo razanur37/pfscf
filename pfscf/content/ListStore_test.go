@@ -3,7 +3,7 @@ package content
 import (
 	"testing"
 
-	test "github.com/Blesmol/pfscf/pfscf/testutils"
+	test "github.com/razanur37/pfscf/pfscf/testutils"
 )
 
 func TestStore_InheritFrom(t *testing.T) {

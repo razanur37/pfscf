@@ -3,7 +3,7 @@ package cfg
 import (
 	"path/filepath"
 
-	"github.com/Blesmol/pfscf/pfscf/utils"
+	"github.com/razanur37/pfscf/pfscf/utils"
 )
 
 const (

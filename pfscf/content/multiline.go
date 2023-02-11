@@ -3,12 +3,12 @@ package content
 import (
 	"fmt"
 
-	"github.com/Blesmol/pfscf/pfscf/args"
-	"github.com/Blesmol/pfscf/pfscf/canvas"
-	"github.com/Blesmol/pfscf/pfscf/param"
-	"github.com/Blesmol/pfscf/pfscf/preset"
-	"github.com/Blesmol/pfscf/pfscf/stamp"
-	"github.com/Blesmol/pfscf/pfscf/utils"
+	"github.com/razanur37/pfscf/pfscf/args"
+	"github.com/razanur37/pfscf/pfscf/canvas"
+	"github.com/razanur37/pfscf/pfscf/param"
+	"github.com/razanur37/pfscf/pfscf/preset"
+	"github.com/razanur37/pfscf/pfscf/stamp"
+	"github.com/razanur37/pfscf/pfscf/utils"
 )
 
 const (
@@ -108,7 +108,7 @@ func (e *multiline) generateOutput(s *stamp.Stamp, as *args.Store) (err error) {
 			continue
 		}
 
-		x, y, x2, y2 := e.getLineCoords(idx+1)
+		x, y, x2, y2 := e.getLineCoords(idx + 1)
 		s.AddTextCell(e.Canvas, x, y, x2, y2, e.Font, e.Fontsize, e.Align, text, true)
 	}
 

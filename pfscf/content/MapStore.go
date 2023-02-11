@@ -3,14 +3,14 @@ package content
 import (
 	"fmt"
 
-	"github.com/Blesmol/pfscf/pfscf/canvas"
-	"github.com/Blesmol/pfscf/pfscf/param"
-	"github.com/Blesmol/pfscf/pfscf/preset"
-	"github.com/Blesmol/pfscf/pfscf/utils"
+	"github.com/razanur37/pfscf/pfscf/canvas"
+	"github.com/razanur37/pfscf/pfscf/param"
+	"github.com/razanur37/pfscf/pfscf/preset"
+	"github.com/razanur37/pfscf/pfscf/utils"
 )
 
 // MapStore stores a list of parameter descriptions
-//type MapStore map[string]Entry
+// type MapStore map[string]Entry
 type MapStore map[string]Entry
 
 // NewMapStore creates a new store.

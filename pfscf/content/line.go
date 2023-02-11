@@ -3,12 +3,12 @@ package content
 import (
 	"fmt"
 
-	"github.com/Blesmol/pfscf/pfscf/args"
-	"github.com/Blesmol/pfscf/pfscf/canvas"
-	"github.com/Blesmol/pfscf/pfscf/param"
-	"github.com/Blesmol/pfscf/pfscf/preset"
-	"github.com/Blesmol/pfscf/pfscf/stamp"
-	"github.com/Blesmol/pfscf/pfscf/utils"
+	"github.com/razanur37/pfscf/pfscf/args"
+	"github.com/razanur37/pfscf/pfscf/canvas"
+	"github.com/razanur37/pfscf/pfscf/param"
+	"github.com/razanur37/pfscf/pfscf/preset"
+	"github.com/razanur37/pfscf/pfscf/stamp"
+	"github.com/razanur37/pfscf/pfscf/utils"
 )
 
 const (
@@ -16,12 +16,12 @@ const (
 )
 
 type line struct {
-	X, Y    float64
-	X2, Y2  float64
+	X, Y      float64
+	X2, Y2    float64
 	Linewidth float64
-	Color   string
-	Canvas  string
-	Presets []string
+	Color     string
+	Canvas    string
+	Presets   []string
 }
 
 func newLine() *line {

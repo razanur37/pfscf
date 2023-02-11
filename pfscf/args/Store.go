@@ -7,8 +7,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/Blesmol/pfscf/pfscf/encode"
-	"github.com/Blesmol/pfscf/pfscf/utils"
+	"github.com/razanur37/pfscf/pfscf/encode"
+	"github.com/razanur37/pfscf/pfscf/utils"
 )
 
 // Store holds a mapping between argument keys and values
@@ -212,7 +212,8 @@ func (s *Store) GetKeys() (keyList []string) {
 }
 
 // GetArgStoresFromCsvRecords gets a list of records from a CSV file and returns a list
-//  of ArgStores that contain the required arguments to fill out a chronicle.
+//
+//	of ArgStores that contain the required arguments to fill out a chronicle.
 func GetArgStoresFromCsvRecords(records [][]string) (argStores []*Store, err error) {
 	argStores = make([]*Store, 0)
 

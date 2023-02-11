@@ -9,7 +9,7 @@ import (
 	"strings"
 	"testing"
 
-	util "github.com/Blesmol/pfscf/pfscf/utils"
+	util "github.com/razanur37/pfscf/pfscf/utils"
 )
 
 const (

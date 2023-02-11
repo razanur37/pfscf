@@ -1,6 +1,6 @@
 package param
 
-import "github.com/Blesmol/pfscf/pfscf/utils"
+import "github.com/razanur37/pfscf/pfscf/utils"
 
 type commonFields struct {
 	id      string

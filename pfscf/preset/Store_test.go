@@ -5,8 +5,8 @@ import (
 
 	"gopkg.in/yaml.v2"
 
-	test "github.com/Blesmol/pfscf/pfscf/testutils"
-	"github.com/Blesmol/pfscf/pfscf/utils"
+	test "github.com/razanur37/pfscf/pfscf/testutils"
+	"github.com/razanur37/pfscf/pfscf/utils"
 )
 
 func Test_newStore(t *testing.T) {

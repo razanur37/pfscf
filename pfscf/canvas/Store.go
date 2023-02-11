@@ -1,8 +1,8 @@
 package canvas
 
 import (
-	"github.com/Blesmol/pfscf/pfscf/stamp"
-	"github.com/Blesmol/pfscf/pfscf/utils"
+	"github.com/razanur37/pfscf/pfscf/stamp"
+	"github.com/razanur37/pfscf/pfscf/utils"
 )
 
 // Store stores a set of preset entries

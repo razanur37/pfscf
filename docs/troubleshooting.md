@@ -52,7 +52,7 @@ This chapter describes on how to overcome some reoccurring problems users might 
 ??? note "Oh noes! I have found a bug! I HAVE FOUND A BUG!!1!"
 
 	First, calm down.
-	Second, please report this to me by opening an [issue](https://github.com/Blesmol/pfscf/issues).
+	Second, please report this to me by opening an [issue](https://github.com/razanur37/pfscf/issues).
 	If you do so, please provide as many details as possible.
 	What operating system are you running?
 	What did you do (exact command line, input files), what did then happen (exact output)?

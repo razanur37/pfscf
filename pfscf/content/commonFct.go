@@ -6,8 +6,8 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/Blesmol/pfscf/pfscf/args"
-	"github.com/Blesmol/pfscf/pfscf/utils"
+	"github.com/razanur37/pfscf/pfscf/args"
+	"github.com/razanur37/pfscf/pfscf/utils"
 )
 
 var (

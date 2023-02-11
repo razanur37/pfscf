@@ -4,7 +4,7 @@ This chapter presents quickstart instructions for filling out multiple chronicle
 
 ## Quickstart
 
-1. [Download the program](https://github.com/Blesmol/pfscf/releases) and extract into a new folder. For details see the [installation instructions](installation.md).
+1. [Download the program](https://github.com/razanur37/pfscf/releases) and extract into a new folder. For details see the [installation instructions](installation.md).
 2. Get a blank society chronicle as single-paged PDF file. I'd suggest to follow [these instructions](extraction.md). Put the resulting PDF page in the same directory to which you extracted `pfscf`.
 3. Open a command line prompt / terminal in this directory. On windows this can be done by double-clicking the `openCmdHere.bat` file included in the installation folder.
 4. Check whether the scenario from your chronicle is already explicitly supported. Call `pfscf template list` to get a complete list of all supported scenarios, or use `pfscf template search <part of scenario title>` to search for it. Write down the ID from the beginning of the line, e.g. something like `pfs2.s1-06` for PFS2 scenario "#1-06: Lost on the Spirit Road".

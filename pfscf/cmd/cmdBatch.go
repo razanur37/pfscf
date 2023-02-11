@@ -9,12 +9,12 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/spf13/pflag"
 
-	"github.com/Blesmol/pfscf/pfscf/args"
-	"github.com/Blesmol/pfscf/pfscf/cfg"
-	"github.com/Blesmol/pfscf/pfscf/csv"
-	"github.com/Blesmol/pfscf/pfscf/pdf"
-	"github.com/Blesmol/pfscf/pfscf/template"
-	"github.com/Blesmol/pfscf/pfscf/utils"
+	"github.com/razanur37/pfscf/pfscf/args"
+	"github.com/razanur37/pfscf/pfscf/cfg"
+	"github.com/razanur37/pfscf/pfscf/csv"
+	"github.com/razanur37/pfscf/pfscf/pdf"
+	"github.com/razanur37/pfscf/pfscf/template"
+	"github.com/razanur37/pfscf/pfscf/utils"
 )
 
 const (

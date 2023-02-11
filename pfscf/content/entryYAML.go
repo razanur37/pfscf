@@ -3,7 +3,7 @@ package content
 import (
 	"fmt"
 
-	"github.com/Blesmol/pfscf/pfscf/utils"
+	"github.com/razanur37/pfscf/pfscf/utils"
 )
 
 type entryYAML struct {

@@ -2,7 +2,7 @@
 
 ## Installation
 
-You can download the latest release from the "Assets" section of the [latest release](https://github.com/Blesmol/pfscf/releases/latest).
+You can download the latest release from the "Assets" section of the [latest release](https://github.com/razanur37/pfscf/releases/latest).
 Currently there are zipped packages for Windows, macOS/Darwin and Linux.
 Download the release for your currently used operating system and extract into a new folder.
 The important things in this directory are the `pfscf` executable and the `templates` directory.

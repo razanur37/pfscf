@@ -3,7 +3,7 @@ package stamp
 import (
 	"testing"
 
-	test "github.com/Blesmol/pfscf/pfscf/testutils"
+	test "github.com/razanur37/pfscf/pfscf/testutils"
 )
 
 func TestCanvas_relPctToPt(t *testing.T) {

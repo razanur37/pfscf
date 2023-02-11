@@ -3,10 +3,10 @@ package content
 import (
 	"testing"
 
-	"github.com/Blesmol/pfscf/pfscf/canvas"
-	"github.com/Blesmol/pfscf/pfscf/param"
-	"github.com/Blesmol/pfscf/pfscf/stamp"
-	test "github.com/Blesmol/pfscf/pfscf/testutils"
+	"github.com/razanur37/pfscf/pfscf/canvas"
+	"github.com/razanur37/pfscf/pfscf/param"
+	"github.com/razanur37/pfscf/pfscf/stamp"
+	test "github.com/razanur37/pfscf/pfscf/testutils"
 )
 
 func getTextCellWithDummyData(presets ...string) (tc *text) {

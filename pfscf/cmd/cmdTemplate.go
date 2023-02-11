@@ -5,9 +5,9 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/Blesmol/pfscf/pfscf/cfg"
-	"github.com/Blesmol/pfscf/pfscf/template"
-	"github.com/Blesmol/pfscf/pfscf/utils"
+	"github.com/razanur37/pfscf/pfscf/cfg"
+	"github.com/razanur37/pfscf/pfscf/template"
+	"github.com/razanur37/pfscf/pfscf/utils"
 )
 
 // GetTemplateCommand returns the cobra command for the "fill" action.

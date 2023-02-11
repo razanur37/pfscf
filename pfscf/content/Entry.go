@@ -3,11 +3,11 @@ package content
 import (
 	"fmt"
 
-	"github.com/Blesmol/pfscf/pfscf/args"
-	"github.com/Blesmol/pfscf/pfscf/canvas"
-	"github.com/Blesmol/pfscf/pfscf/param"
-	"github.com/Blesmol/pfscf/pfscf/preset"
-	"github.com/Blesmol/pfscf/pfscf/stamp"
+	"github.com/razanur37/pfscf/pfscf/args"
+	"github.com/razanur37/pfscf/pfscf/canvas"
+	"github.com/razanur37/pfscf/pfscf/param"
+	"github.com/razanur37/pfscf/pfscf/preset"
+	"github.com/razanur37/pfscf/pfscf/stamp"
 )
 
 // Entry is an interface for the content. D'oh!

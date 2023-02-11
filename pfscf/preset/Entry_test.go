@@ -5,7 +5,7 @@ import (
 	"sort"
 	"testing"
 
-	test "github.com/Blesmol/pfscf/pfscf/testutils"
+	test "github.com/razanur37/pfscf/pfscf/testutils"
 
 	"gopkg.in/yaml.v2"
 )

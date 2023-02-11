@@ -6,8 +6,8 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/Blesmol/pfscf/pfscf/cfg"
-	"github.com/Blesmol/pfscf/pfscf/cmd"
+	"github.com/razanur37/pfscf/pfscf/cfg"
+	"github.com/razanur37/pfscf/pfscf/cmd"
 )
 
 var (
@@ -18,7 +18,7 @@ func main() {
 
 	RootCmd := &cobra.Command{
 		Use:   "pfscf",
-		Short: "The Pathfinder Society Chronicle Filler (v" + version +")",
+		Short: "The Pathfinder Society Chronicle Filler (v" + version + ")",
 	}
 
 	RootCmd.PersistentFlags().BoolVarP(&cfg.Global.Verbose, "verbose", "v", false, "verbose output")

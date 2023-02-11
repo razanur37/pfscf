@@ -3,7 +3,7 @@ package preset
 import (
 	"fmt"
 
-	"github.com/Blesmol/pfscf/pfscf/utils"
+	"github.com/razanur37/pfscf/pfscf/utils"
 )
 
 // Store stores a set of preset entries

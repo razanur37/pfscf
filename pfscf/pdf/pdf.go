@@ -8,11 +8,11 @@ import (
 	pdfcpuapi "github.com/pdfcpu/pdfcpu/pkg/api"
 	"github.com/pdfcpu/pdfcpu/pkg/pdfcpu"
 
-	"github.com/Blesmol/pfscf/pfscf/args"
-	"github.com/Blesmol/pfscf/pfscf/cfg"
-	"github.com/Blesmol/pfscf/pfscf/stamp"
-	"github.com/Blesmol/pfscf/pfscf/template"
-	"github.com/Blesmol/pfscf/pfscf/utils"
+	"github.com/razanur37/pfscf/pfscf/args"
+	"github.com/razanur37/pfscf/pfscf/cfg"
+	"github.com/razanur37/pfscf/pfscf/stamp"
+	"github.com/razanur37/pfscf/pfscf/template"
+	"github.com/razanur37/pfscf/pfscf/utils"
 )
 
 // File is a wraper for a PDF file

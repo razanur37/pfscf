@@ -4,9 +4,9 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/Blesmol/pfscf/pfscf/csv"
-	test "github.com/Blesmol/pfscf/pfscf/testutils"
-	"github.com/Blesmol/pfscf/pfscf/utils"
+	"github.com/razanur37/pfscf/pfscf/csv"
+	test "github.com/razanur37/pfscf/pfscf/testutils"
+	"github.com/razanur37/pfscf/pfscf/utils"
 )
 
 var (

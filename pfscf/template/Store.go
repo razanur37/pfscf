@@ -5,9 +5,9 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/Blesmol/pfscf/pfscf/cfg"
-	"github.com/Blesmol/pfscf/pfscf/utils"
-	"github.com/Blesmol/pfscf/pfscf/yaml"
+	"github.com/razanur37/pfscf/pfscf/cfg"
+	"github.com/razanur37/pfscf/pfscf/utils"
+	"github.com/razanur37/pfscf/pfscf/yaml"
 )
 
 // Store stores multiple ChronicleTemplates and provides means

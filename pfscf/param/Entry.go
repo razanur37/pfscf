@@ -3,8 +3,8 @@ package param
 import (
 	"fmt"
 
-	"github.com/Blesmol/pfscf/pfscf/args"
-	"github.com/Blesmol/pfscf/pfscf/utils"
+	"github.com/razanur37/pfscf/pfscf/args"
+	"github.com/razanur37/pfscf/pfscf/utils"
 )
 
 // Entry defines the interface for all param entries
