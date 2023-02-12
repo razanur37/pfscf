@@ -32,10 +32,7 @@ Use "pfscf [command] --help" for more information about a command.
 
 ## Legal disclaimer
 
-Pathfinder, the Pathfinder logo, the Pathfinder Society, Starfinder, the Starfinder Society and the Starfinder logo are registered trademarks of [Paizo Inc](https://paizo.com).
-This program and website is not published, endorsed, or specifically approved by Paizo.
-The RPG games from Paizo listed above use the [Open Gaming License](https://paizo.com/pathfinder/compatibility/ogl) and are pretty cool.
-Support their games!
+Pathfinder Society Chronicle Sheet Filler uses trademarks and/or copyrights owned by Paizo Inc., used under Paizo's Community Use Policy (<https://paizo.com/communityuse>). We are expressly prohibited from charging you to use or access this content. Pathfinder Society Chronicle Sheet Filler is not published, endorsed, or specifically approved by Paizo. For more information about Paizo Inc. and Paizo products, visit <https://paizo.com>.
 
 This program is being developed as private hobby.
 Although this program is intended to be used with chronicles for organized play from Paizo, I am in no way associated with Paizo Inc. Also, you're using this program at your own risk.
