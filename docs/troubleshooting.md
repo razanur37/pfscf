@@ -36,10 +36,10 @@ This chapter describes on how to overcome some reoccurring problems users might 
 ??? note "The CSV file that I generated with pfscf does not properly work with Excel/LibreOffice, ..."
 
 	Applications like Excel try to put the content from such a file into a table based on so-called separator characters.
-	And although CSV stands for "**comma**-separated values", the separator character is not necessarily a comma.
-	Apparently Excel has certain expectations on what the separator character is, based on the region that you're living in.
-	At the moment the CSV files generated from pfscf are using `;` as separator character per default.
-	When generating a CSV file with pfscf, you can select what should be used as separator using the `--separator` command line flag, e.g. `pfscf batch create --separator "," ...`.
+	And although CSV stands for "**comma**-separated values", some applications do not follow the CSV standard, and use a different separator.
+	Apparently Excel has certain expectations on what the separator character is, based on the region that you're living in. Specifically some regions use a semi-colon (;), instead.
+	The CSV files generated from pfscf are using `,` as separator character per the CSV standard.
+	When generating a CSV file with pfscf, you can select what should be used as separator using the `--separator` command line flag, e.g. `pfscf batch create --separator ";" ...`.
 	Please check whether everything works then as expected.
 	Soon I will also provide means to store this in a config so that you don't have to specify this each and every time when generating a CSV file.
 

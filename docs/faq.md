@@ -6,7 +6,7 @@ This is the section about general questions. In case you are having problems wit
 
 	At the moment the chronicles for Pathfinder 2 and Starfinder are supported.
 	Pathfinder 1 is in general also possible, but I did not yet have time to provide the proper configuration.
-	Also Pathfinder 1 may take some more time, as Paizo seems to have changed the chronicle layout between seaons.
+	Also Pathfinder 1 may take some more time, as Paizo seems to have changed the chronicle layout between editions.
 
 ??? question "What about scenario-specific options? For example, I have this one scenario where I need an easy way to strike out boons that the group did not get."
 

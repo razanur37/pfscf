@@ -47,10 +47,10 @@ func detectSeparator(content []byte) (separator rune) {
 		}
 	}
 
-	if commas > semicolons {
-		return ','
+	if commas < semicolons {
+		return ';'
 	}
-	return ';'
+	return ','
 }
 
 // alignRecordLength takes a two-layered string array as input and ensures

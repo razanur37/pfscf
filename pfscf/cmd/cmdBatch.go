@@ -63,7 +63,7 @@ func GetBatchCommand() (cmd *cobra.Command) {
 		Run: executeBatchCreate,
 	}
 	cmdCreate.Flags().BoolVarP(&actionBatchCreateUsageExampleValues, "examples", "e", false, "Use example values to fill out the chronicle")
-	cmdCreate.Flags().StringVarP(&actionBatchCreateSeparator, "separator", "s", ";", "Field separator character for resulting CSV file")
+	cmdCreate.Flags().StringVarP(&actionBatchCreateSeparator, "separator", "s", ",", "Field separator character for resulting CSV file")
 	cmdCreate.Flags().BoolVarP(&actionBatchCreateSuppressOpenOutfile, "no-auto-open", "n", false, "Suppress auto-opening the created CSV file")
 
 	cmdBatch.AddCommand(cmdCreate)
