@@ -5,7 +5,7 @@ before:
     - go mod download
     # you may remove this if you don't need go generate
     - go generate ./...
-    - cmd.exe /c cp ../CHANGELOG.md .
+    - powershell.exe -c cp ../CHANGELOG.md .
     - cp ../LICENSE .
 builds:
   - env:
