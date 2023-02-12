@@ -12,6 +12,11 @@ All notable changes to this project will be documented in this file.
 
 ### Fixed
 
+## v0.16.5 - 2023-02-11
+
+### Added
+- Templates: Added pfs3-01,02,03
+
 ## v0.16.4 - 2021-04-03
 
 ### Added
