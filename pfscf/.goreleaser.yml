@@ -6,7 +6,7 @@ before:
     # you may remove this if you don't need go generate
     - go generate ./...
     - powershell.exe -c cp ../CHANGELOG.md .
-    - cp ../LICENSE .
+    - powershell.exe -c cp ../LICENSE .
 builds:
   - env:
       - CGO_ENABLED=0
