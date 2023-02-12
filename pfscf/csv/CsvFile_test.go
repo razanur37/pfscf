@@ -50,8 +50,8 @@ func TestReadCsvFile(t *testing.T) {
 			test.ExpectEqual(t, len(records), 3)
 			test.ExpectEqual(t, len(records[0]), 5)
 
-			test.ExpectEqual(t, records[1][0], "societyid,")
-			test.ExpectEqual(t, records[2][3], ",Air")
+			test.ExpectEqual(t, records[1][0], "societyid")
+			test.ExpectEqual(t, records[2][3], "Air;")
 		})
 
 		t.Run("more commas than semicolons", func(t *testing.T) {
