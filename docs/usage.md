@@ -40,24 +40,24 @@ First you have to create a CSV file (CSV: Comma-separated values) for the chroni
 
 CSV was selected here because then you can then easily use other programs like Excel or LibreOffice Calc to open this file and modify it. If you have one of the listed programs, chances are good that all you have to do is double-click on the CSV file and the correct program will open up automatically. Of course it is also possible to modify the CSV file with any texteditor of your choice.
 
-You can create a CSV file for a specific scenario with the `pfscf batch create <template> <outputFile>` command.
+You can create a CSV file for a specific scenario with the `pfscf batch create <outputFile> -t <template>` command.
 ```
-$ pfscf batch create pfs2.s1-06 mySession.csv
+$ pfscf batch create mySession.csv -t pfs2.s1-06
 ```
 
 The resulting CSV file will contain entries for all parameters supported by the selected chronicle template, like player name, society id and scenario-specific boons if they are already supported. It includes columns for up to 7 players, but you can easily add or remove columns here.
 
 If you want to have some parameters already prefilled, you can provide additional arguments during CSV creation:
 ```
-$ pfscf batch create pfs2.s1-06 mySession.csv event="PaizoCon" date=2020-09-12" gm="J. Doe" gmid="123456"
+$ pfscf batch create mySession.csv -t pfs2.s1-06 event="PaizoCon" date=2020-09-12" gm="J. Doe" gmid="123456" 
 ```
 
 ### Creating Filled Chronicles From a CSV File
 
-So now you have already created a CSV file that contains information about your players, and now want to use that to fill out chronicles, one for each player? Great, thats what I'm talking about! For this there is the `pfscf batch fill` command, or short `pfscf b f`. The complete command with arguments is ` pfscf batch fill <template> <csv_file> <input_pdf> <output_dir> [<param_id>=<value> ...]`. An example call looks as follows:
+So now you have already created a CSV file that contains information about your players, and now want to use that to fill out chronicles, one for each player? Great, thats what I'm talking about! For this there is the `pfscf batch fill` command, or short `pfscf b f`. The complete command with arguments is ` pfscf batch fill <csv_file> -i <input_pdf> -o <output_dir> [<param_id>=<value> ...]`. An example call looks as follows:
 
 ```
-$ pfscf batch fill pfs2.s1-06 mySession.csv s106_blank.pdf outputDir
+$ pfscf batch fill mySession.csv -i s106_blank.pdf -o outputDir
 Creating file outputDir\Chronicle_Player_1.pdf
 Creating file outputDir\Chronicle_Player_2.pdf
 Creating file outputDir\Chronicle_Player_3.pdf
